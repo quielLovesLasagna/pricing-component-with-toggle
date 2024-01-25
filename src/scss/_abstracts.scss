@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+// COLOR
+$cl-light-blue: hsl(236, 72%, 79%);
+$cl-blue: hsl(237, 63%, 64%);
+$cl-very-light-grayish-blue: hsl(240, 78%, 98%);
+$cl-light-grayish-blue: hsl(234, 14%, 74%);
+$cl-grayish-blue: hsl(233, 13%, 49%);
+$cl-dark-grayish-blue: hsl(232, 13%, 33%);
+$cl-white: hsl(0, 0%, 100%);
+$cl-black: hsl(0, 0%, 0%);
+$cl-light-gray: hsl(0, 0%, 82%);
+
+// FONT-FAMILY
+$ff-montserrat: "Montserrat", sans-serif;
+
+// FONT-WEIGHT
+$fw-large: 700;
+
+// MIXIN
+@mixin transitionAll {
+	transition: all 0.2s;
+}
+
+// FUNCTION
+@function toRem($size) {
+	$remSize: calc($size / 16px);
+	@return #{$remSize}rem;
+}
