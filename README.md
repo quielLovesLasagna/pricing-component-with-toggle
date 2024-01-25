@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/quielLovesLasagna/pricing-component-with-toggle](https://github.com/quielLovesLasagna/pricing-component-with-toggle)
+- Live Site URL: [https://quiel-pricing-component-with-toggle.netlify.app/](https://quiel-pricing-component-with-toggle.netlify.app/)
 
 ## My process
 
